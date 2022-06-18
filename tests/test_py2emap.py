@@ -1,5 +1,5 @@
 from unittest import TestCase
-from src import py2emap
+from src.py2emap import py2emap
 
 
 class Test(TestCase):
