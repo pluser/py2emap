@@ -1,6 +1,6 @@
 import sys
 import json
-import py2emap
+from . import py2emap
 
 if sys.argv[1] == '-':
     print(py2emap.dumps(json.loads(sys.stdin.read())))
