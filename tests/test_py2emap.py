@@ -1,5 +1,8 @@
 from unittest import TestCase
-from py2emap.py2emap import py2emap
+import sys
+sys.path.append('.')
+sys.path.append('src/')
+from py2emap import py2emap
 
 
 class Test(TestCase):
