@@ -1,1 +1,1 @@
-from src.py2emap.py2emap import *
+from py2emap.py2emap import *
