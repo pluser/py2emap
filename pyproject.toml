@@ -4,9 +4,11 @@ version = "0.1.0"
 description = "Convert Python objects to Emap which is friendly data exchange format for Neos VR"
 authors = ["Nemnomi <dev@nemnomi.net>"]
 license = "MIT License"
+repository = "https://github.com/pluser/py2emap"
+readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.2"
 
 [tool.poetry.dev-dependencies]
 

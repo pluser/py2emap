@@ -64,7 +64,7 @@ class Test(TestCase):
         self.assertEqual(expect, actual)
 
     def test_dumps_escape2(self):
-        o = {'k\ey1': r'test', 'k$#ey2': 'value'}
+        o = {r'k\ey1': r'test', 'k$#ey2': 'value'}
         actual = py2emap.dumps(o)
         expect = r'l$#2$#v$#k0$#k\ey1$#v0$#test$#t0$#string$#k1$#k$#ey2$#v1$#value$#t1$#string$#'
         self.assertEqual(expect, actual)
