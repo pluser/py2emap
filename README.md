@@ -3,6 +3,11 @@ py2emap is a module that converts Python objects to Emap.
 
 [Emap](https://github.com/rheniumNV/json2emap) is designed to be useful for exchange data between [Neos VR](https://wiki.neos.com/Main_Page) and external applications. 
 
+## Installation
+```bash
+$ pip install py2emap
+```
+
 ## How to use?
 ```python
 import py2emap

@@ -6,9 +6,12 @@ authors = ["Nemnomi <dev@nemnomi.net>"]
 license = "MIT License"
 repository = "https://github.com/pluser/py2emap"
 readme = "README.md"
+packages = [
+    { include = "py2emap", from = "src" }
+]
 
 [tool.poetry.dependencies]
-python = "^3.2"
+python = "^3.6"
 
 [tool.poetry.dev-dependencies]
 
